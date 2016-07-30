@@ -25,7 +25,9 @@ describe('App', () => {
 
   it('should have buttons', () => {
     let subject = element(by.css('button')).getText();
-    let result  = 'Index';
+    let result  = 'Submit Value';
+	//browser.pause();
+	//expect(true).toEqual(true);
     expect(subject).toEqual(result);
   });
 
