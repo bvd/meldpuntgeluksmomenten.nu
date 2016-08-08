@@ -1,0 +1,19 @@
+<manifest alg="2" build="2015.2.0.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="meldpuntgeluksmomenten.nu" resolutions="1x" timestamp="1469987570151">
+  <folder name="css">
+    <file name="site_global.css" crc="100103659"/>
+    <file name="index.css" crc="254106630" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index"/>
+    <file name="museutils.js" crc="4155826306" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="328327953" ref="index"/>
+    <file name="jquery.watch.js" crc="117772946" ref="index"/>
+    <file name="require.js" crc="228336483" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="pasted-svg-5151x755.svg" crc="4267966349" seo="true" ref="index"/>
+    <file name="pasted svg 5151x755_poster_.png" crc="3838369008" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3934432370" seo="true" mt="1469987429146" redirect="true"/>
+</manifest>

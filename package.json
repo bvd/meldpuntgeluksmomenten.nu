@@ -54,7 +54,10 @@
     "start:hmr": "npm run server:dev:hmr",
     "preversion": "npm test",
     "version": "npm run build",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+	"postbuild:dev": "aws s3 cp dist s3://dev.meldpuntgeluksmomenten.nu --recursive --region eu-central-1",
+	"upload": "aws s3 cp dist s3://dev.meldpuntgeluksmomenten.nu --recursive --region eu-central-1"
+	
   },
   "dependencies": {
     "@angular/http": "2.0.0-rc.4",
