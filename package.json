@@ -55,8 +55,8 @@
     "preversion": "npm test",
     "version": "npm run build",
     "postversion": "git push && git push --tags",
-	"postbuild:dev": "aws s3 cp dist s3://dev.meldpuntgeluksmomenten.nu --recursive --region eu-central-1",
-	"upload": "aws s3 cp dist s3://dev.meldpuntgeluksmomenten.nu --recursive --region eu-central-1"
+	"postbuild:dev": "npm run upload",
+	"upload": "aws s3 sync dist s3://dev.meldpuntgeluksmomenten.nu --delete --region eu-central-1"
 	
   },
   "dependencies": {
